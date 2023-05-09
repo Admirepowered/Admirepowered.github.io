@@ -12,7 +12,9 @@
 <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
 <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.2/js/bootstrap.min.js"></script>
-<script src="https://cdn.staticfile.org/dplayer/1.26.0/DPlayer.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/flv.js/1.6.2/flv.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/hls.js/1.4.0/hls.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/dplayer/1.27.1/DPlayer.min.js"></script>
 <style>
   body {
     background-image: url("https://cdn.jsdelivr.net/gh/Admiregoogle/Admiregoogle.github.io@master/images/bg1.png");
@@ -52,6 +54,7 @@
 	  if (search.indexOf('dlink=')!=-1)
 	  {
 		var dlink = decodeURIComponent(atob(search.substring(7)));
+		
 		
 	  }else{
 	  
